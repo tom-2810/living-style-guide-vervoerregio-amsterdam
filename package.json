@@ -1,0 +1,32 @@
+{
+  "name": "living-style-guide-vervoerregio-amsterdam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-2810/living-style-guide-vervoerregio-amsterdam.git"
+  },
+  "author": "Tom Poortman (tom.poortman@hva.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tom-2810/living-style-guide-vervoerregio-amsterdam/issues"
+  },
+  "homepage": "https://github.com/tom-2810/living-style-guide-vervoerregio-amsterdam#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
